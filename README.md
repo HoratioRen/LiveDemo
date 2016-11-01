@@ -35,7 +35,7 @@ ijkplayer集成
 lipo -create "真机版本路径" "模拟器版本路径" -output "合并后的文件路径"
 用合并后的IJKMediaFramework把原来的IJKMediaFramework替换掉，然后将新的IJKMediaFramework.framework文件复制出来，导入自己工程
 
-已合并完成的IJKMediaFramework的地址：
+已合并完成的IJKMediaFramework的地址：链接: https://pan.baidu.com/s/1pKKJciJ 密码: jhyk
 
 ijkViewController中url为拉流地址
 
