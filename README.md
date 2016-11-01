@@ -21,11 +21,13 @@ ijkplayer集成
 2)打开终端, cd 到jkplayer-master文件夹中
 
 3)执行命令：./init-ios.sh, 这一步是去下载 ffmpeg
-                    cd ios
+                    
+		    cd ios
                     ./compile-ffmpeg.sh clean
                     ./compile-ffmpeg.sh all
 					
 4)打包IJKMediaFramework.framework框架:
+
      (1) 打开工程IJKMediaPlayer.xcodeproj
      (2)设置工程的 scheme -- run --- BuildConfiguration 设置为 release
      (3)设置好 scheme 后, 分别选择真机和模拟器进行编译, 编译完成后, 进入 Finder
